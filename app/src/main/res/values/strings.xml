@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tarjeta_presentacion_ekaterina</string>
+
+    <string name="ekaterina_gonzalez_bondareva">Ekaterina González Bóndareva</string>
+    <string name="estudiante">Estudiante Ing. en Sistemas de la Información</string>
+    <string name="correo">Email: <u>g.ekaterina16@gmail.com</u></string>
+    <string name="cel">Celular: 83504061</string>
+    <string name="contacto">Contacto</string>
+    <string name="dir">Dirección: Ferreteria Blandón Moreno 2 1/2 al sur.</string>
+    <string name="tec">Técnico en Diseño Gráfico</string>
+</resources>

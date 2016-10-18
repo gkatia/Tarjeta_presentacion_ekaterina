@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.katia.tarjeta_presentacion_ekaterina.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ekaterina_gonzalez_bondareva"
+        android:id="@+id/textView"
+        android:textSize="23dp"
+        android:textColor="#704411"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estudiante"
+        android:id="@+id/cargo"
+        android:textSize="19dp"
+        android:textColor="#B2752E"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:paddingTop="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tec"
+        android:id="@+id/tec"
+        android:textSize="19dp"
+        android:textColor="#B2752E"
+        android:textStyle="italic"
+        android:layout_margin="5dp"
+        android:paddingTop="98dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="115dp"
+        android:background="@mipmap/cara" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto"
+        android:id="@+id/contacto"
+        android:textSize="22dp"
+        android:textColor="#B7842C"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:paddingTop="145dp"
+        android:paddingLeft="190dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:id="@+id/correo"
+        android:textSize="15dp"
+        android:textColor="#F6A315"
+        android:layout_margin="5dp"
+        android:paddingTop="175dp"
+        android:paddingLeft="160dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cel"
+        android:id="@+id/cel"
+        android:textSize="15dp"
+        android:textColor="#F6A315"
+        android:layout_margin="5dp"
+        android:paddingTop="225dp"
+        android:paddingLeft="160dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dir"
+        android:id="@+id/dir"
+        android:textSize="15dp"
+        android:textColor="#F6A315"
+        android:layout_margin="5dp"
+        android:paddingTop="255dp"
+        android:paddingLeft="160dp"/>
+
+</RelativeLayout>
